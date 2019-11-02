@@ -1,0 +1,102 @@
+header {
+  height: 150px;
+  text-align: center;
+  background-image: url(../img/longlogo.jpg);
+  background-size: 100% 100%;
+  font-size: 20pt
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+nav {
+  float: left;
+  width: 25%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%
+}
+
+#bannerlogo{}
+
+#content {
+  float: right;
+  width: 70%;
+}
+
+#aboutus {}
+
+#fooddiv {}
+
+#specials {
+  float: left;
+}
+
+#foodslideshow {
+  float: right;
+  width: 50%;
+}
+
+#comingsoon {
+
+}
+
+#foodlist {
+  float: left;
+  width: 45%;
+}
+
+#orderlist {
+  float: right;
+  width: 45%;
+}
+
+/********************************************
+Begin Slideshow Section
+********************************************/
+
+/* Slideshow container */
+.slideshowcontainer {}
+
+/* Hide the images by default */
+.slideshow {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+/********************************************
+End Slideshow Section
+********************************************/
